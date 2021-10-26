@@ -29,3 +29,4 @@ else:
         img_final = Image.fromarray(final_sketch)
         img_final.save('sketch_img.jpeg')
         st.write('download completed')
+
