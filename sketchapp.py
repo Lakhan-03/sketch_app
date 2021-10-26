@@ -1,9 +1,8 @@
 
 import streamlit as st
-import cv2
-
 import numpy as np
 from PIL import Image
+import cv2
 
 def sketch(img):
     img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
